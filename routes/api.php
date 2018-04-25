@@ -26,4 +26,5 @@ Route::any('errors','PollsController@errors');
 Route::apiresource('questions','QuestionsController');
 Route::get('polls/{poll}/questions','PollsController@questions');
 Route::get('file/get','FilesController@show');
+Route::post('file/create','FilesController@create');
 
